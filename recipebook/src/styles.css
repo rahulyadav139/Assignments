@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap");
+
+:root {
+  --secondary-color: #1f2937;
+}
+
+.App,
+h1 {
+  margin-top: 0%;
+}
+
+body {
+  font-family: "Zen Old Mincho", serif;
+  background-color: var(--secondary-color);
+  margin: 0%;
+  color: white;
+}
+
+main {
+  display: flex;
+  margin: 0.5rem;
+}
+
+nav {
+  background-color: #1e3a8a;
+  text-align: center;
+  margin-top: 0rem;
+  padding: 0.5rem;
+}
+
+#div-column-one {
+  flex-wrap: wrap;
+  flex: 20%;
+}
+#div-column-two {
+  flex-wrap: wrap;
+  flex: 30%;
+}
+
+#div-column-three {
+  flex-wrap: wrap;
+  flex: 50%;
+}
+
+#racipeList {
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.intro {
+  margin: 0rem 1rem;
+}
+
+#test {
+  margin-right: 0.5rem;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  background-color: #4b5563;
+}
