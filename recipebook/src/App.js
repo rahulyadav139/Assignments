@@ -102,11 +102,9 @@ var racipeBook = {
 
 export default function App() {
   var [recipeSelected, setRecipe] = useState("Sabudana Thalipeeth");
-  var [fontWeight, setFontWeight] = useState("bold");
 
   function clickHandler(i) {
     setRecipe(i);
-    setFontWeight("bold");
   }
 
   return (
@@ -131,7 +129,6 @@ export default function App() {
                   listStyle: "none",
                   display: "inline",
                   padding: "0.5rem",
-                  fontWeight: { fontWeight }
                 }}
                 onClick={() => clickHandler(i)}
               >
